@@ -1,46 +1,387 @@
-<!-- Hero Section -->
-<section id="hero">
-    <div class="hero-content">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suvendu Malik — SEO Specialist &amp; WordPress Developer</title>
+<meta name="description" content="Suvendu Malik — Senior SEO Specialist &amp; WordPress Developer helping businesses grow organic traffic through Technical SEO, Content Strategy, Local SEO and AI Search Optimization.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <div class="hero-text">
+<div class="progress-bar" id="progressBar"></div>
 
-            <span class="hero-tag">
-                👋 Welcome to My Portfolio
-            </span>
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">SM<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#expertise" class="nav-link">Expertise</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#process" class="nav-link">Process</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
 
-            <h1>
-                Hi, I'm <span>Suvendu Malik</span>
-            </h1>
+<main>
 
-            <h2>
-                SEO Specialist • Technical SEO • WordPress Developer
-            </h2>
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">SEO SPECIALIST &mdash; WORDPRESS DEVELOPER</p>
+        <h1 class="hero-title">I help websites <span class="hl">rank</span>,<br>not just exist.</h1>
+        <p class="hero-sub">I'm Suvendu Malik. I help businesses increase organic traffic, generate qualified leads, and improve search visibility through Technical SEO, Content Strategy, Local SEO, and AI-powered Search Optimization.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#" class="btn btn-ghost" id="resumeBtn">Download Resume</a>
+          <a href="#contact" class="btn btn-text">Contact Me &rarr;</a>
+        </div>
+      </div>
 
-            <p>
-                I help businesses grow through Technical SEO, Local SEO,
-                AI Search Optimization, WordPress development, and
-                data-driven SEO strategies that improve rankings,
-                traffic, and conversions.
+      <div class="hero-visual reveal" style="transition-delay:.1s">
+        <!-- Signature element: mock SERP snippet + live rank ticker -->
+        <div class="serp-card">
+          <div class="serp-browser-bar">
+            <span class="serp-dot"></span><span class="serp-dot"></span><span class="serp-dot"></span>
+            <span class="serp-url-fake">google.com/search?q=seo+specialist</span>
+          </div>
+          <div class="serp-result">
+            <p class="serp-site">
+              <span class="serp-favicon" aria-hidden="true"></span>
+              suvendumalik.dev <span class="serp-breadcrumb">&rsaquo; about</span>
             </p>
-
-            <div class="hero-buttons">
-                <a href="#projects" class="btn-primary">
-                    View My Work
-                </a>
-
-                <a href="resume.pdf" class="btn-secondary">
-                    Download Resume
-                </a>
+            <p class="serp-title">Suvendu Malik — Senior SEO Specialist &amp; WordPress Dev</p>
+            <p class="serp-desc">6+ yrs improving rankings for SaaS, eCommerce, Real Estate &amp; Job Portals. Technical SEO, AEO/GEO, and WordPress builds that convert.</p>
+          </div>
+          <div class="rank-ticker" id="rankTicker">
+            <span class="rank-label">AVG. KEYWORD POSITION</span>
+            <div class="rank-value">
+              <span class="rank-hash">#</span><span class="rank-num" id="rankNum">47</span>
+              <svg class="rank-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 18L18 6M18 6H9M18 6V15" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
-
+            <div class="rank-track"><div class="rank-fill" id="rankFill"></div></div>
+          </div>
         </div>
-
-        <div class="hero-image">
-
-            <img src="images/profile.jpg"
-                 alt="Suvendu Malik">
-
-        </div>
-
+      </div>
     </div>
-</section>
+    <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="reveal">
+        <p class="eyebrow">ABOUT</p>
+        <h2 class="section-title">Data, technical execution, and AI-assisted workflows.</h2>
+      </div>
+      <div class="about-body reveal">
+        <p>Hello! I'm Suvendu Malik, an SEO Specialist based in Bhubaneswar, Odisha, India.</p>
+        <p>I specialize in building long-term organic growth strategies using Technical SEO, On-Page SEO, Off-Page SEO, Local SEO, AI Search Optimization (AEO &amp; GEO), and WordPress Development.</p>
+        <p>Over the years, I've successfully optimized websites across Real Estate, Construction, SaaS, Tender Platforms, Job Portals, and E-commerce industries.</p>
+        <p>My approach combines data analysis, technical expertise, and AI-powered workflows to deliver measurable business results.</p>
+
+        <div class="stat-row">
+          <div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-suffix">+</span><span class="stat-label">Years experience</span></div>
+          <div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-label">Industries served</span></div>
+          <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">Featured projects</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERTISE -->
+  <section class="section section-alt" id="expertise">
+    <div class="section-inner">
+      <p class="eyebrow reveal">EXPERTISE</p>
+      <h2 class="section-title reveal">Six disciplines, one growth engine.</h2>
+
+      <div class="tabs reveal" id="expertiseTabs">
+        <div class="tab-list" role="tablist" id="tabList">
+          <button class="tab-btn is-active" role="tab" data-tab="technical">Technical SEO</button>
+          <button class="tab-btn" role="tab" data-tab="onpage">On-Page SEO</button>
+          <button class="tab-btn" role="tab" data-tab="offpage">Off-Page SEO</button>
+          <button class="tab-btn" role="tab" data-tab="local">Local SEO</button>
+          <button class="tab-btn" role="tab" data-tab="ai">AI SEO</button>
+          <button class="tab-btn" role="tab" data-tab="wp">WordPress</button>
+        </div>
+
+        <div class="tab-panels">
+          <div class="tab-panel is-active" data-panel="technical">
+            <span class="chip">Website Audit</span><span class="chip">Crawl Analysis</span><span class="chip">Core Web Vitals</span><span class="chip">Robots.txt</span><span class="chip">XML Sitemap</span><span class="chip">Canonical Issues</span><span class="chip">Redirect Optimization</span>
+          </div>
+          <div class="tab-panel" data-panel="onpage">
+            <span class="chip">Keyword Research</span><span class="chip">Search Intent Mapping</span><span class="chip">Meta Optimization</span><span class="chip">Heading Structure</span><span class="chip">Internal Linking</span><span class="chip">Image SEO</span><span class="chip">Content Optimization</span>
+          </div>
+          <div class="tab-panel" data-panel="offpage">
+            <span class="chip">Link Building</span><span class="chip">Digital PR</span><span class="chip">Citation Building</span><span class="chip">Guest Posting</span><span class="chip">Brand Mentions</span>
+          </div>
+          <div class="tab-panel" data-panel="local">
+            <span class="chip">Google Business Profile</span><span class="chip">Local Citations</span><span class="chip">Location Pages</span><span class="chip">Review Management</span><span class="chip">NAP Optimization</span>
+          </div>
+          <div class="tab-panel" data-panel="ai">
+            <span class="chip">Answer Engine Optimization (AEO)</span><span class="chip">Generative Engine Optimization (GEO)</span><span class="chip">AI Search Visibility</span><span class="chip">AI Overview Optimization</span><span class="chip">Entity SEO</span><span class="chip">Structured Data</span>
+          </div>
+          <div class="tab-panel" data-panel="wp">
+            <span class="chip">Elementor</span><span class="chip">Speed Optimization</span><span class="chip">RankMath SEO</span><span class="chip">WooCommerce SEO</span><span class="chip">Landing Pages</span><span class="chip">Website Development</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="section-inner skills-grid">
+      <div class="reveal">
+        <p class="eyebrow">SKILLS</p>
+        <h2 class="section-title">Tools I run the audit through.</h2>
+      </div>
+      <div class="skill-bars reveal">
+        <div class="skill-bar" data-level="100"><span class="skill-name">SEO</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="100"><span class="skill-name">Technical SEO</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="100"><span class="skill-name">WordPress</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="80"><span class="skill-name">HTML</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="80"><span class="skill-name">CSS</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="60"><span class="skill-name">JavaScript</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="100"><span class="skill-name">GA4</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="100"><span class="skill-name">Google Search Console</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="80"><span class="skill-name">Ahrefs</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="80"><span class="skill-name">SEMrush</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="100"><span class="skill-name">Screaming Frog</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+        <div class="skill-bar" data-level="80"><span class="skill-name">Looker Studio</span><div class="skill-track"><div class="skill-fill"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-alt" id="experience">
+    <div class="section-inner">
+      <p class="eyebrow reveal">EXPERIENCE</p>
+      <h2 class="section-title reveal">Where the strategy got tested.</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <p class="timeline-role">SEO Specialist</p>
+            <p class="timeline-org">RiseOTB</p>
+            <p class="timeline-desc">Worked on enterprise SEO projects including technical SEO audits, keyword research, content optimization, AI SEO and performance tracking.</p>
+            <div class="tag-row">
+              <span class="tag">Technical SEO Audits</span><span class="tag">Keyword Research</span><span class="tag">Content Optimization</span><span class="tag">AI SEO</span><span class="tag">Performance Tracking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <p class="timeline-role">SEO Executive</p>
+            <p class="timeline-org">Orimark Technologies</p>
+            <p class="timeline-desc">Handled US-based eCommerce websites, focused on site audits, product SEO, schema implementation, Core Web Vitals and internal linking.</p>
+            <div class="tag-row">
+              <span class="tag">Site Audit</span><span class="tag">Product SEO</span><span class="tag">Schema Implementation</span><span class="tag">Core Web Vitals</span><span class="tag">Internal Linking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <p class="timeline-role">SEO Executive</p>
+            <p class="timeline-org">Saini Properties</p>
+            <p class="timeline-desc">Worked in Real Estate SEO — local SEO, Google Business Profile, lead generation, landing pages and WordPress development.</p>
+            <div class="tag-row">
+              <span class="tag">Local SEO</span><span class="tag">Google Business Profile</span><span class="tag">Lead Generation</span><span class="tag">Landing Pages</span><span class="tag">WordPress Development</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow reveal">FEATURED PROJECTS</p>
+      <h2 class="section-title reveal">Three sites, three different growth problems.</h2>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <p class="project-kicker">Tender discovery platform</p>
+          <h3 class="project-name">TenderMart</h3>
+          <div class="tag-row">
+            <span class="tag">Technical SEO</span><span class="tag">Keyword Research</span><span class="tag">Website Optimization</span><span class="tag">Meta Optimization</span><span class="tag">Content Strategy</span><span class="tag">AI SEO</span><span class="tag">Local SEO</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="transition-delay:.08s">
+          <p class="project-kicker">Construction company website</p>
+          <h3 class="project-name">Subudhi Nirman</h3>
+          <div class="tag-row">
+            <span class="tag">Complete Website Development</span><span class="tag">SEO Strategy</span><span class="tag">Local SEO</span><span class="tag">Blog Optimization</span><span class="tag">Speed Optimization</span><span class="tag">Landing Pages</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="transition-delay:.16s">
+          <p class="project-kicker">Recruitment portal</p>
+          <h3 class="project-name">NaukariMart</h3>
+          <div class="tag-row">
+            <span class="tag">SEO</span><span class="tag">Website Optimization</span><span class="tag">User Experience</span><span class="tag">Landing Page Design</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section-dark" id="process">
+    <div class="section-inner">
+      <p class="eyebrow reveal">MY PROCESS</p>
+      <h2 class="section-title reveal">Eight steps, always in this order.</h2>
+
+      <ol class="process-list">
+        <li class="process-step reveal"><span class="process-num">01</span><span class="process-label">SEO Audit</span></li>
+        <li class="process-step reveal"><span class="process-num">02</span><span class="process-label">Competitor Research</span></li>
+        <li class="process-step reveal"><span class="process-num">03</span><span class="process-label">Keyword Strategy</span></li>
+        <li class="process-step reveal"><span class="process-num">04</span><span class="process-label">Technical Optimization</span></li>
+        <li class="process-step reveal"><span class="process-num">05</span><span class="process-label">Content Optimization</span></li>
+        <li class="process-step reveal"><span class="process-num">06</span><span class="process-label">Link Building</span></li>
+        <li class="process-step reveal"><span class="process-num">07</span><span class="process-label">Performance Tracking</span></li>
+        <li class="process-step reveal"><span class="process-num">08</span><span class="process-label">Growth</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section class="section" id="tools">
+    <div class="section-inner">
+      <p class="eyebrow reveal">SEO TOOLS</p>
+      <h2 class="section-title reveal">What's open in the other tab.</h2>
+      <div class="tool-pills reveal">
+        <span class="pill">Google Search Console</span><span class="pill">Google Analytics 4</span><span class="pill">Ahrefs</span><span class="pill">SEMrush</span><span class="pill">Screaming Frog</span><span class="pill">Looker Studio</span><span class="pill">PageSpeed Insights</span><span class="pill">GTmetrix</span><span class="pill">Google Tag Manager</span><span class="pill">RankMath</span><span class="pill">WordPress</span><span class="pill">Elementor</span><span class="pill">ChatGPT</span><span class="pill">Claude AI</span><span class="pill">Gemini AI</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY WORK WITH ME -->
+  <section class="section section-alt" id="why">
+    <div class="section-inner">
+      <p class="eyebrow reveal">WHY WORK WITH ME</p>
+      <h2 class="section-title reveal">What you're actually hiring.</h2>
+      <div class="why-grid">
+        <div class="why-item reveal">6+ Years of SEO Experience</div>
+        <div class="why-item reveal">Technical SEO Expert</div>
+        <div class="why-item reveal">AI Search Optimization</div>
+        <div class="why-item reveal">WordPress Developer</div>
+        <div class="why-item reveal">Data-Driven Strategy</div>
+        <div class="why-item reveal">Performance Focused</div>
+        <div class="why-item reveal">Local &amp; International SEO</div>
+        <div class="why-item reveal">Fast Communication</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section" id="testimonials">
+    <div class="section-inner">
+      <p class="eyebrow reveal">TESTIMONIALS</p>
+      <h2 class="section-title reveal">What clients say after the numbers move.</h2>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card reveal">
+          <p>Suvendu helped improve our website's technical health and organic visibility significantly.</p>
+        </blockquote>
+        <blockquote class="testimonial-card reveal" style="transition-delay:.08s">
+          <p>Excellent understanding of Technical SEO and WordPress optimization.</p>
+        </blockquote>
+        <blockquote class="testimonial-card reveal" style="transition-delay:.16s">
+          <p>Professional, detail-oriented, and focused on delivering measurable SEO results.</p>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt" id="faq">
+    <div class="section-inner section-inner-narrow">
+      <p class="eyebrow reveal">FAQ</p>
+      <h2 class="section-title reveal">Before you ask.</h2>
+
+      <div class="accordion" id="accordion">
+        <div class="accordion-item reveal">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span>Do you work with international clients?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p>Yes. I work remotely with businesses across the USA, UK, Canada, Australia, and India.</p>
+          </div>
+        </div>
+        <div class="accordion-item reveal">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span>Do you build WordPress websites?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p>Yes. I develop SEO-friendly WordPress websites using Elementor and custom optimization techniques.</p>
+          </div>
+        </div>
+        <div class="accordion-item reveal">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span>What SEO services do you provide?</span>
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p>Technical SEO, On-Page SEO, Off-Page SEO, Local SEO, AI SEO (AEO &amp; GEO), WordPress SEO, Website Audits, and Content Strategy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-dark" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2 class="section-title">Let's grow your business organically.</h2>
+        <p class="contact-sub">Whether you're looking to increase traffic, improve search rankings, or optimize your website for AI-powered search engines, I'd be happy to help.</p>
+      </div>
+      <div class="contact-links reveal" style="transition-delay:.08s">
+        <a href="mailto:your@email.com" class="contact-link">
+          <span class="contact-label">Email</span><span class="contact-value">your@email.com</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span class="contact-label">LinkedIn</span><span class="contact-value">Your LinkedIn Profile</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span class="contact-label">GitHub</span><span class="contact-value">Your GitHub Portfolio</span>
+        </a>
+        <div class="contact-link contact-link-static">
+          <span class="contact-label">Location</span><span class="contact-value">Bhubaneswar, Odisha, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <span>&copy; <span id="year"></span> Suvendu Malik. All rights reserved.</span>
+    <a href="#top" class="footer-top">Back to top &uarr;</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
