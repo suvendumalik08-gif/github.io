@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Suvendu Malik - SEO Specialist | Technical SEO | WordPress Developer">
+    <meta name="keywords" content="SEO Specialist, Technical SEO, WordPress Developer, Local SEO, AI SEO">
+    <meta name="author" content="Suvendu Malik">
+
+    <title>Suvendu Malik | SEO Specialist</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <h2>Suvendu Malik</h2>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Hello, I'm Suvendu Malik</h1>
+
+        <h2>SEO Specialist | WordPress Developer</h2>
+
+        <p>
+            I help businesses increase their organic traffic through
+            Technical SEO, Local SEO, AI SEO, and WordPress optimization.
+        </p>
+
+        <a href="#projects">View My Work</a>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am an SEO Specialist with experience in Technical SEO,
+            On-Page SEO, Local SEO, AI SEO, and WordPress Development.
+            I enjoy solving SEO problems, improving website performance,
+            and helping businesses generate quality leads.
+        </p>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <ul>
+            <li>Technical SEO</li>
+            <li>On-Page SEO</li>
+            <li>Off-Page SEO</li>
+            <li>Local SEO</li>
+            <li>Keyword Research</li>
+            <li>Schema Markup</li>
+            <li>Google Search Console</li>
+            <li>GA4</li>
+            <li>Ahrefs</li>
+            <li>SEMrush</li>
+            <li>Screaming Frog</li>
+            <li>WordPress</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div>
+
+            <h3>TenderMart</h3>
+
+            <p>
+                Improved website SEO through technical optimization,
+                keyword research, content optimization, and spam cleanup.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Subudhi Nirman</h3>
+
+            <p>
+                Worked on Local SEO, website optimization,
+                content strategy, and lead generation.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>USA Ecommerce SEO</h3>
+
+            <p>
+                Performed technical SEO audits, keyword optimization,
+                internal linking, and content improvements.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Resume -->
+    <section id="resume">
+
+        <h2>Resume</h2>
+
+        <a href="resume.pdf" target="_blank">
+            Download Resume
+        </a>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: your-email@example.com</p>
+
+        <p>LinkedIn: Add your LinkedIn profile</p>
+
+        <p>GitHub: https://github.com/suvendumalik08-gif</p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Suvendu Malik. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
