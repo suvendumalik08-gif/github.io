@@ -223,7 +223,7 @@ h1,h2,h3,p{ margin:0; }
 .eyebrow{ }
 .hero-title{
   font-family: var(--font-display);
-  font-size: clamp(38px, 5.4vw, 64px);
+  font-size: clamp(24px, 5.4vw, 64px);
   font-weight: 700;
   line-height: 1.08;
   letter-spacing: -.02em;
