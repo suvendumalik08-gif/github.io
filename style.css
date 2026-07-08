@@ -221,13 +221,8 @@ h1,h2,h3,p{ margin:0; }
   z-index:1;
 }
 .eyebrow{ }
-.hero-title{
-  font-family: var(--font-display);
-  font-size: clamp(24px, 5.4vw, 32px);
-  font-weight: 700;
-  line-height: 1.08;
-  letter-spacing: -.02em;
-  margin-bottom: 24px;
+.hero-title {
+  font-size: clamp(22px, 3vw, 48px);
 }
 .hero-title .hl{
   color: var(--accent);
