@@ -1,0 +1,198 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+header{
+    background:#0f172a;
+    color:#fff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+
+/* Hero */
+#hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:#fff;
+    padding:20px;
+}
+
+#hero h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+#hero h2{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+#hero p{
+    max-width:700px;
+    margin-bottom:30px;
+}
+
+#hero a{
+    background:#38bdf8;
+    color:#fff;
+    padding:15px 35px;
+    border-radius:8px;
+    text-decoration:none;
+    transition:.3s;
+}
+
+#hero a:hover{
+    background:#0284c7;
+}
+
+/* Sections */
+
+section{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:80px 0;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#0f172a;
+}
+
+/* Skills */
+
+#skills ul{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+    list-style:none;
+}
+
+#skills li{
+    background:white;
+    padding:18px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+/* Projects */
+
+#projects div{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+/* Resume */
+
+#resume{
+    text-align:center;
+}
+
+#resume a{
+    background:#0f172a;
+    color:white;
+    padding:15px 35px;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+#resume a:hover{
+    background:#1e293b;
+}
+
+/* Contact */
+
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    margin:10px 0;
+}
+
+/* Footer */
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+nav{
+    flex-direction:column;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:15px;
+}
+
+nav ul li{
+    margin:10px;
+}
+
+#hero h1{
+    font-size:2.2rem;
+}
+
+}
