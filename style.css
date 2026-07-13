@@ -200,6 +200,7 @@ h1,h2,h3,p{ margin:0; }
   justify-content: center;
   position: relative;
   overflow:hidden;
+  background-color: white;
 }
 .hero::before{
   content:'';
@@ -975,4 +976,20 @@ h1,h2,h3,p{ margin:0; }
   .stat-num, .stat-suffix{ font-size: 24px; }
   .hero-cta{ flex-direction: column; align-items: flex-start; }
   .btn{ width:100%; }
+}
+.about-avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    overflow:hidden;
+    border:4px solid #2563eb;
+    box-shadow:0 10px 25px rgba(37,99,235,.18);
+    margin-bottom:20px;
+}
+
+.about-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
 }
